@@ -7,7 +7,9 @@ const Navbar = () => {
 			<h2 className="primary-color"> Notes App</h2>
 			<div>
 				<Link to="/">Home</Link>
-				<Link to="#"> New note</Link>
+				<Link to="/add" className="ml-3">
+					New note
+				</Link>
 			</div>
 		</nav>
 	);
